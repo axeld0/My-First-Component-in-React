@@ -5,7 +5,7 @@ export function TwitterFollowCard({children, username}){
     const [isFollowing, setIsFollowing]= useState(false)
     
 
-    const text = isFollowing ? 'Follow' : 'Stop Following'
+    const text = isFollowing ? 'Stop Following' : 'Follow'
     const buttonClassName = isFollowing
     ? 'tw-followCard-button is-following'
     : 'tw-followCard-button'
